@@ -3,7 +3,7 @@ on:
     workflow_dispatch
 jobs:
     teste:
-        runs-on: [self-hosted]
+        runs-on: [self-hosted, aula-github-actions]
         steps: 
             - name: Fake Task
               run: echo "Teste self runner"
